@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(37,38,46,255);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37,38,46,255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.logo{
+    padding: 0;
+    background: url("Assets/title.png");
+    width: 280px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 43%;
+    margin-top: 30px;
+    background-size: cover;
+}
+.scoreboard{
+    width: 600px;
+    height: 200px;
+    border: 4px solid white;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.player{
+    background-color: red;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.inputs{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+#instruction{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.moves{
+    display: flex;
+    height: 100%;
+    width: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 4px solid white;
+}
+.rock{
+    background-image: url("Assets/Rock.png");
+    width: 110px;
+    height: 112px;
+    background-size: cover;
+    cursor: pointer;
+}
+.paper{
+    background-image: url("Assets/Paper.png");
+    width: 110px;
+    height: 112px;
+    background-size: cover;
+    cursor: pointer;
+}
+.scissor{
+    background-image: url("Assets/Scissors.png");
+    width: 110px;
+    height: 112px;
+    background-size: cover;
+    cursor: pointer;
+}
+.rock:hover{
+    filter: drop-shadow(3px 3px 5px white);
+}
+.paper:hover{
+    filter: drop-shadow(3px 3px 5px white);
+}
+.scissor:hover{
+    filter: drop-shadow(3px 3px 5px white);
+}
+.message{
+    display: none;
+    color: white;
+    margin-top: 80px;
+    justify-content: center;
+}
